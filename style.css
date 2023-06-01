@@ -53,6 +53,8 @@ button:hover {
 
 .card-container {
     padding: 35px;
+    width: 70vw;
+    margin: 0 auto;
 }
 
 .img {
@@ -66,20 +68,23 @@ button:hover {
     margin-bottom: -20px;
     display: flex;
     max-width: 80vw; 
-    
 }
 
 .name {
-    
     margin-top: -20px;
     display: flex;
-    font-size: 0.9rem;
     justify-content: space-between;
+    font-size: 0.9rem;
     width: 100%;
 }
 
+.price {
+    justify-self: flex-end;
+} 
+
 .right {
     padding: 10px;
+    width: 100%;
 }
 
 .right > p {
